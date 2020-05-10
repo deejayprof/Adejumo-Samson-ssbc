@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:blue;
+}
+
+.navbar-brand{
+    padding-left: 80px;
+}
+
+.navbar-nav{
+    padding-right: 250px;
+}
+
+.main-body{
+    padding: 30px 100px 0px 100px;
+    background-color: rgb(163, 26, 26);
+}
+
+.main-body-housing{
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+.side-bar{
+    width: 220px;
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+}
+.Designer{
+    font-size: small;
+    color: navy;
+    padding-top: 5px;
+}
+
+.profile-pic img{
+    align-self: center;
+    max-width: 150px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.profile-pic h5{
+    font-size: medium;
+}
+
+.social-media-logo{
+    padding-right: 15px;
+}
+
+.social-media-icons img{
+    max-width: 40px;
+    padding-right: 10px;
+    filter:yellow(100%) ;
+}
+
+.box-edges{
+    border-radius: 2%;
+}
+
+.featured-posts h5{
+    margin: 30px 0px 15px 0px;
+    font-size: medium;
+}
+
+.featured-posts p{
+    font-size: small;
+    color: grey;
+}
+
+.article-box{
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    margin-bottom: 45px;
+    height: 100%;
+    display: inline-block;
+}
+
+.third-article{
+    margin-top: 15px;
+}
+
+.article-summary .article-box img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.popular-articles{
+    width:750px;
+    padding-left: 40px;
+}
+
+.article-img{
+    width: 25%;
+    float: right;
+}
+
+.article-text{
+    width: 70%;
+    float: right;
+    border-color: red;
+}
+
+.article-quotation{
+    font-size: small;
+    color: red;
+}
+
+.article-details{
+    font-size: smaller;
+    color:blue;
+}
+
+.article-box .article-preview a{
+    text-decoration: underline;
+    color: inherit;
+}
