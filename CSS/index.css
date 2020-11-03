@@ -35,21 +35,42 @@ body{
     text-align: center;
 }
 
+.side-bar2{
+    width: 220px;
+    height: 100%;
+    padding: 40px;
+    background-color:yellow;
+    border-radius: 50px;
+    text-align: center;
+    top: 700px;
+}
+
 .sidebar {
     height: 90%;
-    background-color: white;
+    background-color: rgb(227, 238, 67);
     width: 220px;
     margin-right: 30px;
     position: absolute;
-    top: 80px;
+    top: 85px;
     right: 0;
     padding: 20px;
     text-align: center;
     border-radius: 50px;
   }
-#sidebarcontents {
-    padding: 5px 0px 5px 0px;
+
+  .sidebar2 {
+    height: 90%;
+    background-color: white;
+    width: 220px;
+    margin-right: 30px;
+    position: absolute;
+    top: 700px;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
   }
+
 .Designer{
     font-size: small;
     color: navy;
@@ -96,10 +117,11 @@ body{
     display: inline-block;
     border-color: chartreuse;
     border-width: 20px;
+    border-radius: 50px;
 }
 
 .third-article{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .article-summary .article-box img{
