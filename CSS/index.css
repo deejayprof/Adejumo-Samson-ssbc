@@ -17,7 +17,7 @@ body{
 }
 
 .main-body{
-    padding: 30px 100px 0px 100px;
+    padding: 30px 100px 0px 20px;
     background-color: rgb(163, 26, 26);
 }
 
@@ -32,6 +32,22 @@ body{
     padding: 20px;
     background-color: white;
 }
+.content {
+    position: relative;
+  }
+#sidebar {
+    width: 250px;
+    margin-right: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    text-align: left;
+    border: 1px solid red;
+  }
+#sidebarcontents {
+    padding: 5px 0px 5px 0px;
+  }
 .Designer{
     font-size: small;
     color: navy;
